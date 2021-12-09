@@ -1,0 +1,11 @@
+import java.util.regex.Pattern;
+class IcomDay3test
+{
+public static void main(String args[])
+{
+String input="Hello Wellcome";
+String pattern="\\sHello\\sWelcome\\s";
+boolean flag=Pattern.matches(pattern,input);
+System.out.println(flag);
+}
+}
