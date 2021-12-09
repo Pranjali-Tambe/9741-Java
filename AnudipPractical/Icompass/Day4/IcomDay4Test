@@ -1,0 +1,16 @@
+class superclass
+{
+int b=10;
+}
+class Subclass extends superclass
+{
+int b=20;
+}
+public class IcomDay4Test
+{
+public static void main(String args[])
+{
+superclass obj=new Subclass();
+System.out.println(obj.b);
+}
+}
