@@ -1,0 +1,15 @@
+import java.util.Arrays;
+class ArrayEX1
+{
+public static void main(String args[])
+{
+int a[]={55,87,69,77,2,44};
+String str[]={"abc","xyz","pqr","lmn"};
+System.out.println("numeric array :"+Arrays.toString(a));
+Arrays.sort(a);
+System.out.println("sorted numeric array :"+Arrays.toString(a));
+System.out.println("String array :"+Arrays.toString(str));
+Arrays.sort(str);
+System.out.println("sorted String array :"+Arrays.toString(str));
+}
+}
