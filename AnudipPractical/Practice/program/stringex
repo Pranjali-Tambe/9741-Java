@@ -1,0 +1,17 @@
+package stringall;
+
+public class Stringex {
+
+	public static void main(String[] args) {
+		String s1= "Pranjali Manoranjan Tambe";
+		System.out.println("checking length "+ s1.length());
+		System.out.println("char at index 5 "+ s1.charAt(5));
+		System.out.println("converting lowercase "+ s1.toLowerCase());
+		System.out.println("converting uppercase "+ s1.toUpperCase());
+		System.out.println("concat "+ s1.concat("Java"));
+		System.out.println("converting substring "+ s1.substring(9));
+		System.out.println("converting substring "+ s1.substring(9,12));
+		System.out.println("converting replace "+ s1.replace("Pranjali", "Pooja"));
+	}
+
+}
