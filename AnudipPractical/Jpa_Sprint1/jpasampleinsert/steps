@@ -1,0 +1,20 @@
+file
+new->other maven
+org.apache.maven(1.4quickstart)
+groudid =jpasampleinsert
+got to pom.xml file(add dependency(recirement of hibernet and mysql project need) code)
+in main make a folder resource 
+in resource folder make META-INF
+in META-INF make persistence.xml
+in main folder src/main/java
+create new package jpasampleinsert.jasampleinsert.entity
+in package make a new class StuentEntity in that import @entity and @table write code after declaring variable import id then right click ->source generate getter setter
+then right click again get constructor using fileds default and parameterise constructor
+in persistence.xml add properties for connecting MYSQL workbench 
+properties = class (your class name(jpasampleinsert.jasampleinsert.entity.StudentEntity))
+change 1st property =value(cj.jdbc)
+2nd pro=value(workbench db)
+in workbench create a db name same as 2nd pro
+in 4t pro= use your password
+in last pro= write your value (create,delete,find,update)
+go in main and build path of resource and run 
